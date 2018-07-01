@@ -48,7 +48,7 @@
         if(isset($items)) {
             echo "<table class='table'>";
             $counter = 10;
-           // while ( $counter > 0 ) {
+            while ( $counter > 0 ) {
                 foreach ($items as $item) {
                     
                     $itemName = $item['name'];
@@ -81,7 +81,7 @@
                 }
                  echo "</table>";
             }
-     //   }
+        }
     }
     
    
